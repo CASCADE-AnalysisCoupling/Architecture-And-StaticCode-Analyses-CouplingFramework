@@ -1,0 +1,10 @@
+on:
+    push:
+        branches: [main,updatesite-deployment]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            -   name: Test
+                run: echo 'test'
