@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='ArchitectureAndStaticCodeAnalysisCouplingFramework' version='1.0.0.202509120852' singleton='false'>
+    <update id='ArchitectureAndStaticCodeAnalysisCouplingFramework' range='[0.0.0,1.0.0.202509120852)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='ArchitectureAndStaticCodeAnalysisCouplingFramework'/>
+      <property name='maven-groupId' value='ArchitectureAndStaticCodeAnalysesCouplingFramework'/>
+      <property name='maven-artifactId' value='ArchitectureAndStaticCodeAnalysisCouplingFramework'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='27'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='ArchitectureAndStaticCodeAnalysisCouplingFramework' version='1.0.0.202509120852'/>
+      <provided namespace='osgi.bundle' name='ArchitectureAndStaticCodeAnalysisCouplingFramework' version='1.0.0.202509120852'/>
+      <provided namespace='java.package' name='edu.kit.kastel.sdq.analysiscouplingframework' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.kit.kastel.sdq.analysiscouplingframework.adapter' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.kit.kastel.sdq.analysiscouplingframework.exceptions' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.kit.kastel.sdq.analysiscouplingframework.iterative' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.kit.kastel.sdq.analysiscouplingframework.parser' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.kit.kastel.sdq.analysiscouplingframework.processing' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.kit.kastel.sdq.analysiscouplingframework.processing.steps' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.kit.kastel.sdq.analysiscouplingframework.processing.workflows' version='0.0.0'/>
+      <provided namespace='java.package' name='edu.kit.kastel.sdq.analysiscouplingframework.results' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.build' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.charset' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.comparator' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.file' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.file.attribute' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.file.spi' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.filefilter' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.function' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.input' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.input.buffer' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.monitor' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.output' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.io.serialization' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='ArchitectureAndStaticCodeAnalysisCouplingFramework' version='1.0.0.202509120852'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='osgi.bundle' name='Partitioner' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='ArchitectureAndStaticCodeAnalysisCouplingFramework' version='1.0.0.202509120852'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: ArchitectureAndStaticCodeAnalysisCouplingFramework&#xA;Bundle-Version: 1.0.0.202509120852&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
